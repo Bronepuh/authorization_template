@@ -1,0 +1,97 @@
+@import './function.scss';
+
+$delay: 0.25s;
+$delay-500ms: 500ms;
+$delay-1s: 1s;
+$delay-1-5s: 1.5s;
+$delay-2s: 2s;
+
+$max-content-width: rem(1650);
+
+$navbar-width: rem(110);
+
+// main colors
+
+$white: #ffffff;
+$dark: #8787a9;
+$blue: #0075ff;
+$yellow: #ffe600;
+$red: #f44336;
+$purple: #7459d9;
+$black: #202020;
+$light: #d3d3ee;
+$green: #00ae12;
+$selection: rgba(198, 188, 236, 0.25);
+$selection-dark: rgba(198, 188, 236, 0.5);
+$selection-dark-active: rgba(198, 188, 236, 0.75);
+
+$disabled-color: #d2d2d2;
+$shadow-color: #f1f1f1;
+$colorhouse-metal: #afafb2;
+
+$gray: #ccc;
+$light-gray: #f7f7f7;
+$light-red: #f2d7d5;
+$light-blue: #e7e4f0;
+$ghost-white: #f8f8ff;
+$titan-white: #ebe9fa;
+$chilean-heath: #fffcd9;
+$remy: #f9e0d9;
+
+$bg-color: #f8f8ff;
+$box-shadow: 0 rem(2) rem(20) rgba(0, 0, 0, 0.1);
+
+$bg_shading: rgba(#17153a, 0.4);
+
+// inputs, selects
+
+$input-read-only-height: rem(20);
+$input-height: calc(2 * #{$input-read-only-height});
+
+$input-active-color: #6c6ab8;
+$input-border-color: rgba(#a5a5c7b2, 0.7);
+$input-not-readonly-border-color-hover: #9796cf;
+$input-placeholder-color: rgba($black, 0.3);
+
+// light theme
+
+$common-list-hover: var(--common-list-hover);
+$common-black: var(--common-black);
+
+$primary-color-800: var(--primary-color-800);
+$primary-color-700: var(--primary-color-700);
+$primary-color-600: var(--primary-color-600);
+$primary-color-500: var(--primary-color-500);
+$primary-color-400: var(--primary-color-400);
+$primary-color-300: var(--primary-color-300);
+$primary-color-200: var(--primary-color-200);
+$primary-color-100: var(--primary-color-100);
+$primary-color-50: var(--primary-color-50);
+
+$secondary-color-900: var(--secondary-color-900);
+$secondary-color-800: var(--secondary-color-800);
+$secondary-color-700: var(--secondary-color-700);
+$secondary-color-600: var(--secondary-color-600);
+$secondary-color-500: var(--secondary-color-500);
+$secondary-color-400: var(--secondary-color-400);
+$secondary-color-300: var(--secondary-color-300);
+$secondary-color-200: var(--secondary-color-200);
+$secondary-color-100: var(--secondary-color-100);
+$secondary-color-50: var(--secondary-color-50);
+
+$black-color-900: var(--black-color-900);
+$black-color-800: var(--black-color-800);
+$black-color-700: var(--black-color-700);
+$black-color-600: var(--black-color-600);
+$black-color-500: var(--black-color-500);
+$black-color-400: var(--black-color-400);
+$black-color-300: var(--black-color-300);
+$black-color-200: var(--black-color-200);
+$black-color-100: var(--black-color-100);
+$black-color-50: var(--black-color-50);
+
+$white-color: var(--white-color);
+
+$box-shadow-main: var(--box-shadow-main);
+$box-shadow-main-around: var(--box-shadow-main-around);
+$box-shadow-button: var(--box-shadow-button);

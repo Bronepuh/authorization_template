@@ -1,0 +1,17 @@
+{
+  "name": "authorization-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Bronepuh/authorization_template.git",
+  "author": "Bronepuh <darckday2007@mail.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  },
+  "scripts": {
+    "local:up": "docker-compose -f docker-compose.local-dev.yml up",
+    "local:build": "docker-compose -f docker-compose.local-dev.yml build --no-cache",
+    "local:down": "docker-compose -f docker-compose.local-dev.yml down",
+    "prepare": "husky install"
+  }
+}
